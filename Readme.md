@@ -1,8 +1,14 @@
+<!-- default file list -->
+*Files to look at*:
+
+* [Form1.cs](./CS/DateFilterDashboardItemSample/Form1.cs) (VB: [Form1.vb](./VB/DateFilterDashboardItemSample/Form1.vb))
+<!-- default file list end -->
+
 # How to Create a Dashboard with DateFilterDashboardItem in Code
 
 This example creates a dashboard in code and displays it in the Dashboard Viewer control. The dashboard contains a DateFilter and a Chart items placed in a Group item. The dashboard is bound to an Excel data source. The layout is constructed in code.
 
-![screenshot](.\images\screenshot.png)
+![screenshot](\images\screenshot.png)
 
 API in this example:
 
