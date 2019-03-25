@@ -8,7 +8,7 @@
 
 This example creates a dashboard in code and displays it in the Dashboard Viewer control. The dashboard contains a DateFilter and a Chart items placed in a Group item. The dashboard is bound to an Excel data source. The layout is constructed in code.
 
-![screenshot](\images\screenshot.png)
+![screenshot](./images/screenshot.png)
 
 API in this example:
 
