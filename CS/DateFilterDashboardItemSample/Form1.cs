@@ -28,7 +28,7 @@ namespace DateFilterDashboardItemSample
             DashboardItemGroup group = CreateGroup();
             dBoard.Groups.Add(group);
             group.AddRange(dateFilterItem, chart);
-            // Create layout tree.
+            // Create the layout tree.
             DashboardLayoutItem dateFilterLayoutItem = new DashboardLayoutItem(dateFilterItem, 30);
             DashboardLayoutItem chartLayoutItem = new DashboardLayoutItem(chart, 70);
             DashboardLayoutGroup groupLayoutItem = new DashboardLayoutGroup(group, 100);
@@ -61,60 +61,34 @@ namespace DateFilterDashboardItemSample
             dateFilter.FilterType = DateFilterType.Between;
             dateFilter.VisibleComponents = DateFilterComponent.QuickFilters;
             dateFilter.DateTimePeriods.AddRange(
-                   new DateTimePeriod
-                   {
-                       Name = DashboardWinLocalizer.GetString(DashboardWinStringId.PeriodLastYear),
-                       Start = new FlowDateTimePeriodLimit
-                       {
-                           Interval = DateTimeInterval.Year,
-                           Offset = -1
-                       },
-                       End = new FlowDateTimePeriodLimit
-                       {
-                           Interval = DateTimeInterval.Year,
-                           Offset = 0
-                       }
-                   },
-                   new DateTimePeriod
-                   {
-                       Name = DashboardWinLocalizer.GetString(DashboardWinStringId.PeriodNextSevenDays),
-                       Start = new FlowDateTimePeriodLimit
-                       {
-                           Interval = DateTimeInterval.Day,
-                           Offset = 1
-                       },
-                       End = new FlowDateTimePeriodLimit
-                       {
-                           Interval = DateTimeInterval.Day,
-                           Offset = 8
-                       }
-                   },
-                   new DateTimePeriod
-                   {
-                       Name = DashboardWinLocalizer.GetString(DashboardWinStringId.PeriodMonthToDate),
-                       Start = new FlowDateTimePeriodLimit
-                       {
-                           Interval = DateTimeInterval.Month,
-                           Offset = 0
-                       },
-                       End = new FlowDateTimePeriodLimit
-                       {
-                           Interval = DateTimeInterval.Day,
-                           Offset = 1
-                       }
-                   },
-                   new DateTimePeriod
-                   {
-                       Name = "Jul-18-2018 - Jan-18-2019",
-                       Start = new FixedDateTimePeriodLimit
-                       {
-                           Date = new DateTime(2018, 7, 18)
-                       },
-                       End = new FixedDateTimePeriodLimit
-                       {
-                           Date = new DateTime(2019, 1, 18)
-                       }
-                   }
+                DateTimePeriod.CreateLastYear(),
+                DateTimePeriod.CreateNextDays("Next 7 Days", 7),
+                new DateTimePeriod
+                {
+                    Name = DashboardWinLocalizer.GetString(DashboardWinStringId.PeriodMonthToDate),
+                    Start = new FlowDateTimePeriodLimit
+                    {
+                        Interval = DateTimeInterval.Month,
+                        Offset = 0
+                    },
+                    End = new FlowDateTimePeriodLimit
+                    {
+                        Interval = DateTimeInterval.Day,
+                        Offset = 1
+                    }
+                },
+                new DateTimePeriod
+                {
+                    Name = "Jul-18-2018 - Jan-18-2019",
+                    Start = new FixedDateTimePeriodLimit
+                    {
+                        Date = new DateTime(2018, 7, 18)
+                    },
+                    End = new FixedDateTimePeriodLimit
+                    {
+                        Date = new DateTime(2019, 1, 18)
+                    }
+                }
             );
             return dateFilter;
         }
