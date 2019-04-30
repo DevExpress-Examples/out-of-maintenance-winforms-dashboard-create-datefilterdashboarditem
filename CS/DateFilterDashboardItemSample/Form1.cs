@@ -59,7 +59,7 @@ namespace DateFilterDashboardItemSample
             dateFilter.Dimension.DateTimeFormat.DateTimeFormat = DateTimeFormat.Short;
             dateFilter.ArrangementMode = DateFilterArrangementMode.Vertical;
             dateFilter.FilterType = DateFilterType.Between;
-            dateFilter.VisibleComponents = DateFilterComponent.QuickFilters;
+            dateFilter.DatePickerLocation = DatePickerLocation.Far;
             dateFilter.DateTimePeriods.AddRange(
                 DateTimePeriod.CreateLastYear(),
                 DateTimePeriod.CreateNextDays("Next 7 Days", 7),
