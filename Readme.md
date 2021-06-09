@@ -42,4 +42,4 @@ API in this example:
 * [How to bind a Pie dashboard item to data in code](https://github.com/DevExpress-Examples/how-to-bind-a-pie-dashboard-item-to-data-in-code-e4769)
 * [How to bind a Pivot dashboard item to data in code](https://github.com/DevExpress-Examples/how-to-bind-a-pivot-dashboard-item-to-data-in-code-e4772)
 * [How to bind a Choropleth Map dashboard item to data in code](https://github.com/DevExpress-Examples/how-to-bind-a-choropleth-map-dashboard-item-to-data-in-code-e5010)
-* [How to bind a Date Filter dashboard item to data in code](https://github.com/DevExpress-Examples/how-to-bind-a-range-filter-dashboard-item-to-data-in-code-e4773)
+* [How to bind a Range Filter dashboard item to data in code](https://github.com/DevExpress-Examples/how-to-bind-a-range-filter-dashboard-item-to-data-in-code-e4773)
