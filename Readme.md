@@ -26,7 +26,7 @@ API in this example:
 - [Binding to Data](https://docs.devexpress.com/Dashboard/116771) 
 - [Dashboard Items](https://docs.devexpress.com/Dashboard/116521)
 - [Dashboard Layout](https://docs.devexpress.com/Dashboard/15617)
-* [WinForms Viewer](https://docs.devexpress.com/Dashboard/117122)
+- [WinForms Viewer](https://docs.devexpress.com/Dashboard/117122)
 
 ## More Examples 
 
