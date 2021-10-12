@@ -3,15 +3,16 @@
 [![](https://img.shields.io/badge/Open_in_DevExpress_Support_Center-FF7200?style=flat-square&logo=DevExpress&logoColor=white)](https://supportcenter.devexpress.com/ticket/details/T830445)
 [![](https://img.shields.io/badge/📖_How_to_use_DevExpress_Examples-e9f6fc?style=flat-square)](https://docs.devexpress.com/GeneralInformation/403183)
 <!-- default badges end -->
-<!-- default file list -->
-*Files to look at*:
-
-* [Form1.cs](./CS/DateFilterDashboardItemSample/Form1.cs) (VB: [Form1.vb](./VB/DateFilterDashboardItemSample/Form1.vb))
-<!-- default file list end -->
 
 # How to Create a Dashboard with DateFilterDashboardItem in Code
 
 This example creates a dashboard in code and displays it in the Dashboard Viewer control. The dashboard contains a DateFilter and a Chart items placed in a Group item. The dashboard is bound to an Excel data source. The layout is constructed in code.
+
+<!-- default file list -->
+## Files to Look At
+
+* [Form1.cs](./CS/DateFilterDashboardItemSample/Form1.cs) (VB: [Form1.vb](./VB/DateFilterDashboardItemSample/Form1.vb))
+<!-- default file list end -->
 
 ![screenshot](./images/screenshot.png)
 
