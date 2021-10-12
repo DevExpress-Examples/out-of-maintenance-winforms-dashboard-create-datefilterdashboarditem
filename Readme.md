@@ -4,7 +4,7 @@
 [![](https://img.shields.io/badge/📖_How_to_use_DevExpress_Examples-e9f6fc?style=flat-square)](https://docs.devexpress.com/GeneralInformation/403183)
 <!-- default badges end -->
 
-# How to Create a Dashboard with DateFilterDashboardItem in Code
+# Dashboard for WinForms - How to Create a Dashboard with DateFilterDashboardItem in Code
 
 This example creates a dashboard in code and displays it in the Dashboard Viewer control. The dashboard contains a DateFilter and a Chart items placed in a Group item. The dashboard is bound to an Excel data source. The layout is constructed in code.
 
